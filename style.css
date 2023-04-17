@@ -1,0 +1,31 @@
+body {
+  background-color: #fefafa;
+  margin: 0px;
+  position: relative;
+  padding: 50px;
+}
+
+figure {
+  display: flex;
+  flex-flow: column;
+  padding-inline: 40px;
+  padding-top: 40px;
+  padding-bottom: 20px;
+  background-color: white;
+  margin: 0px;
+  color: #7f7f7f;
+  box-shadow: 5px 10px 15px #7f7f7f;
+  border-radius: 2px;
+  transform: rotate(-5deg);
+}
+
+img {
+  max-width: 100%;
+  border-radius: 2px;
+}
+figcaption {
+  font-family: "Oooh Baby", sans-serif;
+  font-size: 40px;
+  padding-top: 45px;
+  text-align: center;
+}
